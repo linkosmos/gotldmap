@@ -850,6 +850,12 @@ var Map = map[string]uint{
 	"zw":             841,
 }
 
+// TldExist - checks whether given TLD is in the map
+func TldExist(tld string) bool {
+	_, exist := Map[tld]
+	return exist
+}
+
 // FindByTld - returns mark of tld
 func FindByTld(tld string) (uint, error) {
 	if value, ok := Map[tld]; ok {

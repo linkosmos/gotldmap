@@ -32,3 +32,12 @@ func TestFindByMark(t *testing.T) {
 		}
 	}
 }
+
+func TestTldExist(t *testing.T) {
+	for _, test := range findTests {
+		got := TldExist(test.tld)
+		if got != test.expected {
+			t.Errorf("Expected - %t for tld: %q", test.expected, test.tld)
+		}
+	}
+}
