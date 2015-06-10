@@ -4,7 +4,7 @@ import "testing"
 
 var findTests = []struct {
 	tld      string
-	mark     uint
+	mark     int
 	expected bool
 }{
 	{"de", 201, true},

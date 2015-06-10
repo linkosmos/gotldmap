@@ -6,7 +6,7 @@ import "errors"
 var ErrTLDNotFound = errors.New("TLD not found")
 
 // Map - map of top level domains with mark key
-var Map = map[string]uint{
+var Map = map[string]int{
 	"abb":            1,
 	"abbott":         2,
 	"abogado":        3,
@@ -857,7 +857,7 @@ func TldExist(tld string) bool {
 }
 
 // FindByTld - returns mark of tld
-func FindByTld(tld string) (uint, error) {
+func FindByTld(tld string) (int, error) {
 	if value, ok := Map[tld]; ok {
 		return value, nil
 	}
@@ -865,7 +865,7 @@ func FindByTld(tld string) (uint, error) {
 }
 
 // FindByMark - returns tld of corresponding mark
-func FindByMark(mark uint) (string, error) {
+func FindByMark(mark int) (string, error) {
 	for k, v := range Map {
 		if v == mark {
 			return k, nil
