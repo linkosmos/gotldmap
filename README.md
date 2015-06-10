@@ -1,8 +1,8 @@
 # gotldmap
 Top Level Domain map
 
-[![Build Status](https://travis-ci.org/linkosmosis/gotldmap.svg)](https://travis-ci.org/linkosmosis/gotldmap)
-[![GoDoc](http://godoc.org/github.com/linkosmosis/gotldmap?status.svg)](http://godoc.org/github.com/linkosmosis/gotldmap)
+[![Build Status](https://travis-ci.org/linkosmos/gotldmap.svg)](https://travis-ci.org/linkosmos/gotldmap)
+[![GoDoc](http://godoc.org/github.com/linkosmos/gotldmap?status.svg)](http://godoc.org/github.com/linkosmos/gotldmap)
 [![BSD License](http://img.shields.io/badge/license-BSD-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
 
 ### Functions
@@ -19,7 +19,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/linkosmosis/gotldmap"
+	"github.com/linkosmos/gotldmap"
 )
 
 func main() {
