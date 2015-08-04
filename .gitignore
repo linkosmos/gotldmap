@@ -2,6 +2,7 @@
 *.o
 *.a
 *.so
+generator/generator
 
 # Folders
 _obj
