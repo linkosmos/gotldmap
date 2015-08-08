@@ -17,6 +17,12 @@ func main() {
 	defer file.Close()
 	var count int
 
+	for _, position := range gotldmap.Map {
+		if position >= count {
+			count = position
+		}
+	}
+
 	scanner := bufio.NewScanner(file)
 
 	fmt.Println("package gotldmap")
