@@ -5,6 +5,12 @@ Top Level Domain map
 [![GoDoc](http://godoc.org/github.com/linkosmos/gotldmap?status.svg)](http://godoc.org/github.com/linkosmos/gotldmap)
 [![BSD License](http://img.shields.io/badge/license-BSD-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
 
+### Internet Assigned Numbers Authority
+
+```
+https://data.iana.org/TLD/tlds-alpha-by-domain.txt
+```
+
 ### Functions
 ```go
 	mark, err := gotldmap.FindByTld("com")
