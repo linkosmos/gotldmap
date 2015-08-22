@@ -568,6 +568,7 @@ var Map = map[string]int{
 	"mobi":                     558,
 	"moda":                     559,
 	"moe":                      560,
+	"mom":                      1046,
 	"monash":                   561,
 	"money":                    562,
 	"montblanc":                563,
