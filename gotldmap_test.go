@@ -7,19 +7,19 @@ var findTests = []struct {
 	mark     int
 	expected bool
 }{
-	{"de", 225, true},
-	{"com", 185, true},
+	{"de", 1225, true},
+	{"com", 1185, true},
 	{"", 0, false},
-	{"zuerich", 1039, true},
-	{"academy", 5, true},
-	{"abb", 1, true},
-	{"zw", 1040, true},
-	{"wiki", 907, true},
-	{"seek", 1045, true},
-	{"buy", 1124, true},
-	{"author", 1121, true},
-	{"zero", 1144, true},
-	{"pars", 1145, true},
+	{"zuerich", 2039, true},
+	{"academy", 1005, true},
+	{"abb", 1001, true},
+	{"zw", 2040, true},
+	{"wiki", 1907, true},
+	{"seek", 2045, true},
+	{"buy", 2124, true},
+	{"author", 2121, true},
+	{"zero", 2144, true},
+	{"pars", 2145, true},
 }
 
 func TestFindByTld(t *testing.T) {
