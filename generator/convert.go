@@ -9,13 +9,13 @@ import (
 	"github.com/linkosmos/gotldmap"
 )
 
-func newmark(mark int) int {
-	_, err := gotldmap.FindByMark(mark)
-	if err == nil {
-		mark++
-		return newmark(mark)
+func lastMark() (last int) {
+	for _, mark := range gotldmap.Map {
+		if mark > last {
+			last = mark
+		}
 	}
-	return mark
+	return last
 }
 
 func main() {
@@ -24,9 +24,7 @@ func main() {
 		panic(err)
 	}
 	defer file.Close()
-	var count int
-
-	count = newmark(1) // Find last mark
+	count := lastMark()
 	scanner := bufio.NewScanner(file)
 
 	fmt.Println("package gotldmap")
