@@ -765,6 +765,7 @@ var Map = map[string]int{
 	"prod":                     1675,
 	"productions":              1676,
 	"prof":                     1677,
+	"promo":                    2184,
 	"properties":               1678,
 	"property":                 1679,
 	"protection":               2053,
