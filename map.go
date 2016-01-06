@@ -69,6 +69,7 @@ var Map = map[string]int{
 	"az":                       1053,
 	"azure":                    1054,
 	"ba":                       1055,
+	"baidu":                    2185,
 	"band":                     1056,
 	"bank":                     1057,
 	"bar":                      1058,
