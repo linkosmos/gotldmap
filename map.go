@@ -572,6 +572,7 @@ var Map = map[string]int{
 	"liaison":                  1497,
 	"lidl":                     1498,
 	"life":                     1499,
+	"lifeinsurance":            2200,
 	"lifestyle":                2096,
 	"lighting":                 1500,
 	"like":                     2132,
