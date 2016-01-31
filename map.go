@@ -272,6 +272,7 @@ var Map = map[string]int{
 	"degree":                   1227,
 	"delivery":                 1228,
 	"dell":                     2074,
+	"deloitte":                 2212,
 	"delta":                    1229,
 	"democrat":                 1230,
 	"dental":                   1231,
