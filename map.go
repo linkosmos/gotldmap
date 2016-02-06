@@ -1013,6 +1013,7 @@ var Map = map[string]int{
 	"ubs":                      1861,
 	"ug":                       1862,
 	"uk":                       1863,
+	"unicom":                   2213,
 	"university":               1864,
 	"uno":                      1865,
 	"uol":                      1866,
