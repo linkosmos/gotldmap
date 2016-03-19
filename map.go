@@ -947,6 +947,7 @@ var Map = map[string]int{
 	"stockholm":                2070,
 	"storage":                  2163,
 	"store":                    2241,
+	"stream":                   2254,
 	"studio":                   1789,
 	"study":                    1790,
 	"style":                    1791,
