@@ -759,6 +759,7 @@ var Map = map[string]int{
 	"office":                   1619,
 	"okinawa":                  1620,
 	"olayan":                   2297,
+	"olayangroup":              2300,
 	"om":                       1621,
 	"omega":                    1622,
 	"one":                      1623,
