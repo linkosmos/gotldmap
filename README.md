@@ -4,7 +4,7 @@ Top Level Domain map
 [![Build Status](https://travis-ci.org/linkosmos/gotldmap.svg?branch=master)](https://travis-ci.org/linkosmos/gotldmap)
 [![Coverage Status](https://coveralls.io/repos/github/linkosmos/gotldmap/badge.svg?branch=master)](https://coveralls.io/github/linkosmos/gotldmap?branch=master)
 [![GoDoc](http://godoc.org/github.com/linkosmos/gotldmap?status.svg)](http://godoc.org/github.com/linkosmos/gotldmap)
-[![Go Report Card](http://goreportcard.com/badge/linkosmos/gotldmap)](http://goreportcard.com/report/linkosmos/gotldmap)
+[![Go Report Card](https://goreportcard.com/badge/github.com/linkosmos/gotldmap)](https://goreportcard.com/report/github.com/linkosmos/gotldmap)
 [![BSD License](http://img.shields.io/badge/license-BSD-blue.svg)](http://opensource.org/licenses/BSD-3-Clause)
 
 ### Internet Assigned Numbers Authority

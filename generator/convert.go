@@ -25,7 +25,7 @@ func main() {
 	}
 	defer file.Close()
 	count := lastMark()
-	count += 1 // Increment over last mark
+	count++ // Increment over last mark
 	scanner := bufio.NewScanner(file)
 
 	fmt.Println("package gotldmap")
