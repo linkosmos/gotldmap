@@ -810,6 +810,7 @@ var Map = map[string]int{
 	"mom":                      2046,
 	"monash":                   1561,
 	"money":                    1562,
+	"monster":                  2496,
 	"montblanc":                1563,
 	"mopar":                    2444,
 	"mormon":                   1564,

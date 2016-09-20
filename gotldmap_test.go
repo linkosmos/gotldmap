@@ -60,6 +60,7 @@ var findTests = []struct {
 	{"vivo", 2473, true},
 	{"asda", 2475, true},
 	{"nab", 2490, true},
+	{"monster", 2496, true},
 }
 
 func TestFindByTld(t *testing.T) {
