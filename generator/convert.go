@@ -37,6 +37,10 @@ func main() {
 	fmt.Println("var Map = map[string]int{")
 	for scanner.Scan() {
 		tld := strings.ToLower(scanner.Text())
+		if strings.Contains(tld, "--") {
+			continue
+		}
+
 		if gotldmap.TldExist(tld) {
 			tldPos, _ := gotldmap.FindByTld(tld)
 			fmt.Printf("\"%s\": %d,\n", tld, tldPos)
