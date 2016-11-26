@@ -1043,6 +1043,7 @@ var Map = map[string]int{
 	"ril":                2518,
 	"rio":                1711,
 	"rip":                1712,
+	"rmit":               2519,
 	"ro":                 1713,
 	"rocher":             2100,
 	"rocks":              1714,
