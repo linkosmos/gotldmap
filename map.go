@@ -33,6 +33,7 @@ var Map = map[string]int{
 	"af":                 1017,
 	"afamilycompany":     2384,
 	"afl":                1018,
+	"africa":             2528,
 	"ag":                 1019,
 	"agakhan":            2283,
 	"agency":             1020,
